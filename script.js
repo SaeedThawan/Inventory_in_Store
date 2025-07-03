@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
     let productsByCategory = {}; // ستحتوي على المنتجات مصنفة حسب الفئة
 
     // قائمة بالوحدات المتاحة للاختيار (يمكنك تعديلها حسب حاجتك)
-    const availableUnits = ['حبة', 'علبة', 'باكت', 'شدة', 'كرتون', 'كيلو', 'لتر', 'متر', 'مجموعة'];
+    const availableUnits = ['حبة', 'علبة', 'باكت'];
 
     // URL لـ Google Apps Script Web App (ستحصل عليه بعد النشر)
-    const GOOGLE_SHEET_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbx6jOwIBslmffRtj7dsGx7Dl7Z7eSfSF30YPym1wBqxDALCv4nu3b48f7g1rrKgWeTx-g/exec';
+    const GOOGLE_SHEET_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbyjTh9J5mFFMYDTZVksXW6eXTebNe3tL2cITQF4FwXEFAC-nLpK21wYIuKVoZt9RMQIwg/exec';
     // استبدل هذا بالرابط الفعلي لتطبيق الويب الخاص بك
 
     // ----------------------------------------------------
